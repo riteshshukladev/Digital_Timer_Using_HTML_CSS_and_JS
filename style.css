@@ -50,3 +50,20 @@ body{
 .btn:active{
     transform: scale(0.95);
 }
+
+@media screen and (max-width: 768px){
+   
+    #container h1{
+        font-size: 2.5rem;
+        
+        font-weight: 600;
+    }
+    #container .count{
+        font-size: 3rem;
+       
+    }
+    .btn{
+        
+        font-size: 1rem;
+    }
+}
