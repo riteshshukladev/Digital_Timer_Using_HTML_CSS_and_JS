@@ -18,3 +18,35 @@ body{
     height: 100vh;
     width: 100vw;
 }
+#container h1{
+    font-size: 3rem;
+    color: #0f4c75;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#container .count{
+    font-size: 5rem;
+    color: #0f4c75;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+.btn{
+    padding: 5px 20px;
+    margin: 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(146, 198, 198);
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #0f4c75;
+    color: #d9f1f4;
+}
+.btn:active{
+    transform: scale(0.95);
+}

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +20,12 @@
         <div id="container">
             <h1>Timer</h1>
         
-        <div class="count">0</div>
+        <div class="count">00:00:00</div>
         <div class="buttons-container">
-            <button class="btn plus-three">+3</button>
-            <button class="btn play"></button>
-            <button class="btn reset"></button>
-            <button class="btn pause">Reset</button>
-            <button class="btn minus-three">-3</button>
+            <button onclick="start()" class="btn play"><i class="fa-sharp fa-solid fa-play"></i></button>
+            <button onclick="reset()" class="btn reset">Reset</button>
+            <button onclick="stop()" class="btn pause"><i class="fa-sharp fa-solid fa-pause"></i></button>
+            
         </div>
     </div>
     </main>
